@@ -12,10 +12,7 @@ spring:
     host: localhost
     username: guest
   datasource:
-    url: jdbc:postgresql://letsecure.az:5432/tuum_db #62.171.153.79
-    driverClassName: org.postgresql.Driver    #    driverClassName: 'oracle.jdbc.OracleDriver'
-    username: tuum_db
-    password: '4`duGn:Rc^pK8A+<2cnn.#{='
+
 tuum:
   rabbitmq:
     routingkey: tuum.routingkey
